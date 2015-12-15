@@ -11,3 +11,4 @@ echo $1 + $2
 num=$(($1 + $2))
 echo "sum is : $num"
 
+echo "$@"
