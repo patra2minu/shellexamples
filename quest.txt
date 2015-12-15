@@ -1,0 +1,3 @@
+
+
+addarray.sh : takes numbers as command line arg and prints the sum
