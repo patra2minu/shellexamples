@@ -12,3 +12,9 @@ num=$(($1 + $2))
 echo "sum is : $num"
 
 echo "$@"
+
+echo "now I m going to print all the args"
+for var in "$@"
+do 
+   echo "$var"
+done
